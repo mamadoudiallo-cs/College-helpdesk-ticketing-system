@@ -30,7 +30,7 @@ The system will be used by college students, faculty staff, IT technicians, and 
 - IT technician: can login to view assigned tickets, update ticket status, and add comments.
 - IT Admin: Can manage users, categories, assignments, and reporting.
 
-## Uers actions
+## Uer Actions
 
 - User logs in to securely access the system based on their role. 
 - User creates and submit tickets for a specific issue.
