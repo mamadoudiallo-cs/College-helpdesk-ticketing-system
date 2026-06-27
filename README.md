@@ -60,6 +60,7 @@ The system will be used by college students, faculty staff, IT technicians, and 
 - Lookup tables
 - Transaction tables
 - Relational database design
+- Database normalization (reducing data redundancy)
 
 ## Future Features
 - Ticket comments

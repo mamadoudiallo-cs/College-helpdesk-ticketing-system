@@ -1,4 +1,3 @@
-
 CREATE DATABASE IF NOT EXISTS helpdesk_ticketing_system;
 
 USE helpdesk_ticketing_system;
@@ -32,8 +31,6 @@ CREATE TABLE tickets (
     ticket_id INT AUTO_INCREMENT PRIMARY KEY,
     caller_id INT NOT NULL,
     FOREIGN KEY (caller_id) REFERENCES users(user_id),
-    category_id INT NOT NULL,
-    FOREIGN KEY (category_id) REFERENCES categories(category_id), 
     subcategory_id INT NOT NULL,
     FOREIGN KEY (subcategory_id) REFERENCES subcategories(subcategory_id),
     short_description VARCHAR(255) NOT NULL,
@@ -43,4 +40,5 @@ CREATE TABLE tickets (
 
 
 );
+
 
