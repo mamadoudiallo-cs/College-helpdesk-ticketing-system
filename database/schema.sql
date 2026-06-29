@@ -41,4 +41,13 @@ CREATE TABLE tickets (
 
 );
 
+INSERT INTO users (first_name, last_name, email, role)
+VALUES 
+('Mamadou', 'Diallo', 'mdial81@wgu.edu', 'Student'),
+('Sarah', 'Johnson', 'Sarahjohnson@college.edu', 'Faculty'),
+('Jack', 'Polifka', 'jack.polifka@college.edu', 'IT Technician'), 
+('Lisa', 'Admin', 'lisa.admin@collge.edu', 'IT Admin');
+
+SELECT *
+FROM users;
 
